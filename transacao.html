@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenaiMoney</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="static/img/Logo.png" alt="">
+            <a href="transacao.html">Nova Transação</a>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div>
+                <p>Entradas</p>
+                <p>R$17.400,00</p>
+                <img src="static/img/Icons.png" alt="">
+            </div>
+            <div>
+                <p>Saídas</p>
+                <p>R$1.259,00</p>
+                <img src="static/img/Icons (1).png" alt="">
+            </div>
+            <div>
+                <p>Total</p>
+                <p>R$16.141,00</p>
+                <img src="static/img/Icons (2).png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <form action="">Buscar Transação</form>
+            <button>Buscar <img src="static/img/Icons (4).png" alt=""></button>
+        </div>
+    </section>
+    <section>
+        <table border="1">
+        <thead>
+            <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Categoria</th>
+            <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Desenvolvimento de site</td>
+            <td>R$ 12.000,00</td>
+            <td>Venda</td>
+            <td>13/04/2022</td>
+            </tr>
+            <tr>
+            <td>Hamburguer</td>
+            <td>- R$ 59,00</td>
+            <td>Alimentação</td>
+            <td>10/04/2022</td>
+            </tr>
+            <tr>
+            <td>Aluguel do apartamento</td>
+            <td>- R$ 1.200,00</td>
+            <td>Casa</td>
+            <td>27/03/2022</td>
+            </tr>
+            <tr>
+            <td>Computador</td>
+            <td>R$ 5.400,00</td>
+            <td>Venda</td>
+            <td>15/03/2022</td>
+            </tr>
+            <tr>
+            <td>Desenvolvimento de site</td>
+            <td>R$ 8.000,00</td>
+            <td>Venda</td>
+            <td>13/03/2022</td>
+            </tr>
+            <tr>
+            <td>Janta</td>
+            <td>- R$ 39,00</td>
+            <td>Alimentação</td>
+            <td>10/03/2022</td>
+            </tr>
+            <tr>
+            <td>Aluguel do apartamento</td>
+            <td>- R$ 1.200,00</td>
+            <td>Casa</td>
+            <td>27/02/2022</td>
+            </tr>
+            <tr>
+            <td>Salário</td>
+            <td>R$ 5.400,00</td>
+            <td>Salário</td>
+            <td>15/02/2022</td>
+            </tr>
+            <tr>
+            <td>Almoço</td>
+            <td>- R$ 30,00</td>
+            <td>Alimentação</td>
+            <td>05/02/2022</td>
+            </tr>
+            <tr>
+            <td>Fone de ouvido</td>
+            <td>- R$ 150,00</td>
+            <td>Itens</td>
+            <td>02/02/2022</td>
+            </tr>
+        </tbody>
+        </table>
+
+    </section>
+    <section>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+    </section>
+    <section style= position:absolute >
+        <form>
+        <h2>Nova transação</h2>
+
+        <label>
+            <input type="text" name="descricao" placeholder="Descrição">
+        </label>
+        <br><br>
+
+        <label>
+            <input type="number" name="preco" placeholder="Preço" step="0.01">
+        </label>
+        <br><br>
+
+        <label>
+            <input type="text" name="categoria" placeholder="Categoria">
+        </label>
+        <br><br>
+
+        <label>
+            <input type="radio" name="tipo" value="entrada"> Entrada
+        </label>
+
+        <label>
+            <input type="radio" name="tipo" value="saida"> Saída
+        </label>
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
