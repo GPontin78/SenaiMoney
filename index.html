@@ -7,43 +7,43 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="header-container">
+  <header class="topo">
+    <div class="topo-conteudo">
       <img src="static/img/Logo.png" alt="Logo Senai Money" />
-      <a href="transacao.html" class="btn-nova-transacao">Nova Transação</a>
+      <a href="transacao.html" class="btn-transacao">Nova Transação</a>
     </div>
   </header>
 
   <section class="resumo">
-    <div class="card entrada">
+    <div class="caixa entrada">
       <p class="titulo">Entradas</p>
       <p class="valor">R$ 17.400,00</p>
       <img src="static/img/Icons.png" alt="Ícone de entrada" />
     </div>
-    <div class="card saida">
+    <div class="caixa saida">
       <p class="titulo">Saídas</p>
       <p class="valor">R$ 1.259,00</p>
       <img src="static/img/Icons (1).png" alt="Ícone de saída" />
     </div>
-    <div class="card total">
+    <div class="caixa total">
       <p class="titulo">Total</p>
       <p class="valor">R$ 16.141,00</p>
       <img src="static/img/Icons (2).png" alt="Ícone total" />
     </div>
   </section>
 
-  <section class="busca-transacao">
-    <div class="busca-container">
+  <section class="busca">
+    <div class="conteudo-busca">
       <form class="form-busca" action="">
         <input type="text" placeholder="Busque uma transação" />
-        <button class="btn-buscar">
+        <button class="btn-busca">
           Buscar <img src="static/img/Icons (4).png" alt="Ícone de buscar" />
         </button>
       </form>
     </div>
   </section>
 
-  <section class="tabela-transacoes">
+  <section class="tabela">
     <table>
       <thead>
         <tr>
@@ -54,6 +54,7 @@
         </tr>
       </thead>
       <tbody>
+        <!-- Linhas da tabela -->
         <tr>
           <td>Desenvolvimento de site</td>
           <td class="entrada">R$ 12.000,00</td>
@@ -118,11 +119,11 @@
     </table>
   </section>
 
-  <section class="paginacao">
-    <div class="paginacao-container">
-      <button class="pagina ativa">1</button>
-      <button class="pagina">2</button>
-      <button class="pagina">3</button>
+  <section class="paginas">
+    <div class="botoes">
+      <button class="numero ativa">1</button>
+      <button class="numero">2</button>
+      <button class="numero">3</button>
     </div>
   </section>
 </body>
